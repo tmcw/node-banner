@@ -1,0 +1,16 @@
+{
+    "name": "banner",
+    "version": "0.0.0",
+    "description": "A header-comment-generator",
+    "author": {
+        "name": "Tom MacWright",
+        "url": "http://tommacwright.com/",
+        "email": "macwright@gmail.com"
+    },
+    "bin": {
+        "banner": "./bin/banner",
+    },
+    "licenses": [{
+      "type": "BSD"
+    }]
+}
