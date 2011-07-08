@@ -1,16 +1,23 @@
 {
     "name": "banner",
-    "version": "0.0.0",
-    "description": "A header-comment-generator",
-    "author": {
-        "name": "Tom MacWright",
-        "url": "http://tommacwright.com/",
-        "email": "macwright@gmail.com"
-    },
+    "description": "A banner generator",
+    "version": "0.0.4",
+    "keywords": ["readme"],
+    "url": "http://github.com/tmcw/banner",
     "bin": {
-        "banner": "./bin/banner",
+        "banner": "./bin/banner.js"
     },
+    "repositories": [{
+        "type": "git",
+        "url": "git://github.com/tmcw/banner.git"
+    }],
+    "author": "Tom MacWright <macwright@gmail.com>",
     "licenses": [{
-      "type": "BSD"
-    }]
+        "type": "BSD"
+    }],
+    "devDependencies": {
+        "expresso": "= 0.7.x",
+        "jshint": "= 0.2.x",
+        "docco": "= 0.3.x"
+    }
 }
