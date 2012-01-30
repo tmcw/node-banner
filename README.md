@@ -21,6 +21,14 @@ Then use it in a makefile, like
         mkdir dist
         $(BANNER) package.json > dist/header.js
 
+It generates a header like
+
+    /* wax - 4.0.0 - 1.0.4-423-g2fe4c52 */
+    
+where the format is:
+
+    /* PROJECT_NAME - PACKAGE_TAG - GIT_HEAD */
+
 And then you'll have less of a headache figuring out what version of a
 client-side library you, or someone else, is using, since every file has
 a concise comment describing the specific version and, if it's a development
