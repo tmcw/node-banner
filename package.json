@@ -1,7 +1,7 @@
 {
     "name": "banner",
     "description": "A banner generator",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "keywords": ["readme"],
     "url": "http://github.com/tmcw/banner",
     "bin": {
@@ -15,9 +15,5 @@
     "licenses": [{
         "type": "BSD"
     }],
-    "devDependencies": {
-        "expresso": "= 0.7.x",
-        "jshint": "= 0.2.x",
-        "docco": "= 0.3.x"
-    }
+    "devDependencies": { }
 }

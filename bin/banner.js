@@ -1,16 +1,16 @@
 #!/usr/bin/env node
-var fs = require('fs');
-    sys = require('sys'),
+var fs = require('fs'),
+    util = require('util'),
     path = require('path'),
     spawn = require('child_process').spawn,
     argv = process.argv.slice(2, process.argv.length);
 
-if (argv.length !== 1) return sys.error('usage:\n\tbanner package.json > header.js');
+if (argv.length !== 1) return util.error('usage:\n\tbanner package.json > header.js');
 
-var package = JSON.parse(fs.readFileSync(argv[0], 'utf-8')),
+var p = JSON.parse(fs.readFileSync(argv[0], 'utf-8')),
     git = spawn('git', ['describe']),
-    version = package.version,
-    name = package.name,
+    version = p.version,
+    name = p.name,
     width = name.length + version.length,
     commit = '';
 
