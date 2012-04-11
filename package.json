@@ -3,7 +3,7 @@
     "description": "A banner generator",
     "version": "0.0.5",
     "keywords": ["readme"],
-    "url": "http://github.com/tmcw/banner",
+    "url": "http://github.com/tmcw/node-banner",
     "bin": {
         "banner": "./bin/banner.js"
     },
