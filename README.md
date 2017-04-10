@@ -1,5 +1,7 @@
 # Banner
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/node-banner.svg)](https://greenkeeper.io/)
+
 Banner creates headers automatically, by parsing `package.json`,
 the [npm](http://npmjs.org) standard for versioning nodejs packages. It also
 uses [git describe](http://ds.io/qUSuQz) to add a git tag & revision.
